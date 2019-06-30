@@ -149,40 +149,6 @@ public:
 	
 	void search(int x);
 
-	
-	void print(node* tree) {
-		
-			if (tree) {
-				
-					print(tree->left);
-				
-					cout << tree->key << endl;
-				
-					print(tree->right);
-				
-			}
-		
-	}
-
-	void printtree(node * tree)
-		
-	{
-		
-			if (tree != nullptr)
-				
-			{
-				
-					print(tree->left);
-				
-					printtree(tree->left);
-				
-					printtree(tree->right);
-				
-			}
-		
-	}
-
-	
 };
 
 
